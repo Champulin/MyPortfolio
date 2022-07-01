@@ -1,10 +1,10 @@
 <template>
-  <div class="bg-[#f9f9f9] py-[50px] lg:pt-[80px] lg:pb-[116px]">
+  <div class="bg-[#f9f9f9] py-[3.125rem] lg:pt-[5rem] lg:pb-[7.25rem]">
     <Container>
       <h2 class="font-serif text-[#1d1d1d] text-4xl md:text-5xl">Contact</h2>
 
-      <div class="flex flex-row mt-[30px] lg:mt-[40px]">
-        <form
+      <div class="flex flex-row mt-[1.875rem] lg:mt-[2.5rem]">
+                <form
           action="https://getform.io/f/9ebd8290-40d4-4040-b854-c5044bec49d1"
           method="POST"
           class="contact__card"
@@ -40,14 +40,13 @@
           </p>
           <p class="mt-[40px]">
             Speak soon,<br />
-            José :)
+            Vicente :)
           </p>
         </div>
       </div>
     </Container>
   </div>
 </template>
-
 <script>
 export default {
   name: 'Contact',
@@ -69,7 +68,6 @@ textarea {
 .contact__button {
   @apply w-full rounded-lg h-[56px] bg-gradient-to-r from-[#28f3c3] to-[#9a65d9] text-[#f9f9f9] font-semibold;
 }
-
 .contact__panel {
   @apply w-6/12 hidden md:block bg-gradient-to-br from-[#9a65d9] to-[#28F3C3] text-[#f9f9f9] shadow-2xl px-[16px] py-[44px] lg:px-[44px] lg:py-[116px] text-2xl;
 }

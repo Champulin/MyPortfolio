@@ -16,26 +16,26 @@
       <Container>
         <div class="about-content">
           <h2 class="font-serif text-4xl md:text-5xl text-center md:text-left">
-            About
+            About me
           </h2>
 
           <div class="about__content">
             <p>
-              José is a Software Engineer who is passionate about
+              I'm a Software Developer student that is passionate about
               <span class="underline">solving real life problems</span
               >—efficiently.
             </p>
-            <p class="mt-[30px] lg:mt-[40px]">
-              He loves creating tidy solutions to help businesses bring their
-              <span class="underline">ideas into reality</span>, improve their
-              processes, and ultimately scale.
+            <p class="mt-[1.875rem] lg:mt-[2.5rem]">
+              I have a work ethic that is focused on  
+              <span class="underline"> quality and customer satisfaction </span> 
+              and I'm always looking for new opportunities to learn and grow.
             </p>
 
             <div
-              class="about__link-buttons flex flex-col lg:flex-row mt-[30px]"
+              class="about__link-buttons flex flex-col lg:flex-row mt-[1.875rem]"
             >
               <a
-                href="https://www.linkedin.com/in/josematiasarevalo/"
+                href="https://www.linkedin.com/in/vicentezuritachfr/"
                 target="_blank"
                 class="about__button-link-item"
               >
@@ -54,7 +54,7 @@
               </a>
 
               <a
-                href="https://github.com/josematiasarevalo"
+                href="https://github.com/champulin"
                 target="_blank"
                 class="about__button-link-item lg:mx-4"
               >
@@ -72,7 +72,7 @@
                 </svg>
               </a>
               <a
-                href="/JOSE_Resume.pdf"
+                href="/VicenteCvPdf.pdf"
                 class="about__button-link-item"
                 download
               >

@@ -2,12 +2,12 @@
   <Container>
     <div class="text-left md:ml-1 mt-[50px]">
       <h2 class="font-serif text-[#1d1d1d] text-4xl md:text-5xl">
-        Passion Projects
+        Projects
       </h2>
 
-      <div class="passion-projects__cards">
+      <div class="passion-PassionProjects__cards">
         <ProjectCard
-          v-for="project in projects"
+          v-for="project in PassionProjects"
           :key="project.idx"
           :title="project.title"
           :categories="project.categories"
@@ -32,46 +32,46 @@ export default {
   },
   data() {
     return {
-      projects: [
+      PassionProjects: [
         {
-          title: 'Workshops Marketplace',
-          categories: ['Django', 'Bootstrap', 'Vue.js'],
-          excerpt: 'Creative Workshops Marketplace and Booking System.',
+          title: 'Ipeheme Webpage',
+          categories: ['Django', 'Bootstrap5','PostgreSQL','Linux'],
+          excerpt: 'Video display website for videographer Ipeheme can display youtube or vimeo videos.',
           image: {
-            src: '/images/Talleru.webp',
-            alt: "Woman's hands knitting",
+            src: '/images/Ipeheme.webp',
+            alt: "Screenshot Webpage",
           },
           type: 'Full Stack',
         },
         {
-          title: 'Sleep Coaching App',
-          categories: ['Django', 'Moment.js', 'Vue.js'],
-          excerpt: 'Health Consulting Manager and Sleep Trackking App.',
+          title: 'My Own Portfolio',
+          categories: ['Vue.js', 'Tailwind.css', 'NuxtJs'],
+          excerpt: 'Website for displaying my own portfolio, it was done for learning and work purposes on a language i did not know.',
           image: {
-            src: '/images/Sleep-Coaching.webp',
-            alt: 'Baby sleeping on the side',
+            src: '/images/VicenteFolio.webp',
+            alt: 'Screenshot of this webpage',
           },
           type: 'Full Stack',
         },
         {
-          title: 'Inventory Report',
-          categories: ['Python', 'Lambda', 'Pandas'],
-          excerpt: 'Serverless Asynchronous Reporting From eBay’s Trading API.',
+          title: 'Art Chili',
+          categories: ['Wordpress'],
+          excerpt: 'Content update and management website for art firm.',
           image: {
-            src: '/images/Inventory_Report.webp',
-            alt: 'Warehouse shelves',
+            src: '/images/artChili.webp',
+            alt: 'ScreenShot ArtChili',
           },
-          type: 'Backend',
+          type: 'FrontEnd',
         },
         {
-          title: 'Sports Bets Scraper',
-          categories: ['Python', 'Selenium', 'SQLAlchemy'],
-          excerpt: 'Multithreading Scraper and Bets Replication Bot.',
+          title: 'Paloma Site',
+          categories: ['ToDecide'],
+          excerpt: 'Portfolio site for event producer',
           image: {
             src: '/images/Sports_Bet.webp',
             alt: "Woman's hands knitting",
           },
-          type: 'Backend',
+          type: 'Full Stack',
         },
       ],
     }
@@ -80,7 +80,7 @@ export default {
 </script>
 
 <style lang="postcss">
-.passion-projects__cards {
+.passion-PassionProjects__cards {
   @apply lg:mt-[10px] grid grid-cols-1 lg:grid-cols-2 lg:gap-[20px] pb-[60px];
 }
 </style>

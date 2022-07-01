@@ -3,7 +3,7 @@
     <Container class="relative lg:flex lg:justify-between lg:items-center">
       <div class="flex items-center justify-between pt-[16px] lg:py-[50px]">
         <span class="text-2xl lg:text-4xl font-serif">
-          <span class="text-[#28F3c3]">&#60;</span>JoséDev
+          <span class="text-[#28F3c3]">&#60;</span>Champulin
           <span class="text-[#28F3c3]">/&#62;</span>
         </span>
 
